@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+int max(int x,int y){
+    if(x>y){
+        return x;
+    }
+    else{
+        return y;
+        
+    }
+    
+}
+int main(){
+    int a,b,c,d;
+    cin>>a>>b>>c>>d;
+    
+    // int a=34,b=45,c=56,d=89;
+    
+    int firstmax=max(a,b);
+    int secondmax=max(c,d);
+    int final_max= max(firstmax,secondmax);
+    cout<<final_max;
+    
+    
+    
+}
